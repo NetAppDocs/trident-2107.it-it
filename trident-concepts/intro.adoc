@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: trident-concepts/intro.html 
 keywords: product overview, astra trident 
-summary: 'Il provisioning in Astra Trident prevede due fasi principali. La prima fase associa una classe di storage all"insieme di pool di storage di back-end adatti e si verifica come preparazione necessaria prima del provisioning. La seconda fase include la creazione del volume e richiede la scelta di un pool di storage tra quelli associati alla classe di storage del volume in sospeso.' 
+summary: 'Il provisioning in Astra Trident prevede due fasi principali. La prima fase associa una classe di storage all"insieme di pool di storage di back-end adatti e si verifica come preparazione necessaria prima del provisioning. La seconda fase include la creazione stessa di un volume e richiede la scelta di un pool di storage tra quelli associati alla classe di storage del volume in sospeso.' 
 ---
 = Introduzione ad Astra Trident
 :hardbreaks:
@@ -11,9 +11,10 @@ summary: 'Il provisioning in Astra Trident prevede due fasi principali. La prima
 :imagesdir: ../media/
 
 
-Astra Trident è un progetto open source completamente supportato gestito da NetApp. È stato progettato da zero per soddisfare le esigenze di persistenza delle applicazioni containerizzate utilizzando interfacce standard di settore, come l'interfaccia per lo storage container (CSI).
+[role="lead"]
+Astra Trident è un progetto open source completamente supportato, gestito da NetApp nell'ambito di link:https://docs.netapp.com/us-en/astra-family/intro-family.html["Famiglia di prodotti Astra"^]. È stato progettato per aiutare a soddisfare le richieste di persistenza delle applicazioni containerizzate utilizzando interfacce standard del settore, come Container Storage Interface (CSI).
 
-Astra Trident si implementa nei cluster Kubernetes come pod e fornisce servizi di orchestrazione dello storage dinamico per i carichi di lavoro Kubernetes. Consente alle applicazioni containerizzate di consumare in modo rapido e semplice storage persistente dall'ampio portfolio NetApp che include ONTAP (AFF/FAS/selezione/cloud/Amazon FSX per NetApp ONTAP), Element Software (NetApp HCI/SolidFire), oltre al servizio Azure NetApp Files, Cloud Volumes Service su Google Cloud e Cloud Volumes Service su AWS.
+Astra Trident si implementa nei cluster Kubernetes come pod e fornisce servizi di orchestrazione dello storage dinamico per i carichi di lavoro Kubernetes. Permette alle tue applicazioni containerizzate di consumare rapidamente e facilmente storage persistente dall'ampio portfolio di NetApp, che include ONTAP (AFF/FAS/Select/cloud/Amazon FSX per NetApp ONTAP), il software Element (NetApp HCI/SolidFire), oltre al servizio Azure NetApp Files, Cloud Volumes Service su Google Cloud e Cloud Volumes Service su AWS.
 
 Astra Trident è anche una tecnologia di base per Astra di NetApp, che si occupa di protezione dei dati, disaster recovery, portabilità e casi di utilizzo della migrazione per i carichi di lavoro Kubernetes sfruttando la tecnologia di gestione dei dati leader del settore di NetApp per snapshot, backup, replica e cloning.
 
